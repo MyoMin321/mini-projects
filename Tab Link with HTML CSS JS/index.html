@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rules and Regulations</h1>
+    <div class="tabContainer">
+        <div class="tabButtons">
+            <button onclick="showPanel(0,'#268471')">Rules</button>
+            <button onclick="showPanel(1,'#3a585c')">Teams</button>
+            <button onclick="showPanel(2,'#316cd3')">Dishboard</button>
+            <button onclick="showPanel(3,'#944c64')">Winner Team</button>
+        </div>
+        <div class="tabPanel">
+            <h3>You will have to follow the rules below:</h3>
+            <ul>
+                <li>What is the first thing to do?</li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas nulla quas? Quidem accusantium alias temporibus sequi quae et earum!</p>
+
+                <li>How much times you can try?</li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas nulla quas? Quidem accusantium alias temporibus sequi quae et earum!</p>
+
+                <li>How to win?</li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas nulla quas? Quidem accusantium alias temporibus sequi quae et earum!</p>
+            </ul>
+        </div>
+        <div class="tabPanel">
+            <h3>Team List</h3>
+            <table border="1px solid red" style="border-collapse: collapse; width: 100%; ">
+                <thead style="text-align: center;">
+                    <tr>
+                        <td >No.</td>
+                        <td>Name</td>
+                        <td>Male</td>
+                        <td>Female</td>
+                        <td>Code</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Blue</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>F1</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Orange</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>F2</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Green</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>F3</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Yellow</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>F4</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Orchid</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>F5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tabPanel">
+            <h3>Lead Teams</h3>
+            <table border="1px solid red" style="border-collapse: collapse; width: 100%; ">
+                <thead style="text-align: center;">
+                    <tr>
+                        <td >No.</td>
+                        <td>Team</td>
+                        <td>Point</td>
+                        <td>Goal</td>
+                        <td>Remark</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Orchid</td>
+                        <td>20</td>
+                        <td>2</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Green</td>
+                        <td>14</td>
+                        <td>4</td>
+                        <td>Yellow Card: 2</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Orchid</td>
+                        <td>12</td>
+                        <td>1</td>
+                        <td>Red Card: 1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tabPanel">
+            <h3>Not Showing Yet:</h3>
+        </div>
+    </div>
+
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
